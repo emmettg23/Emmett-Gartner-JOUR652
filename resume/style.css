@@ -27,3 +27,25 @@ h2{
   background-color:#33485e;
   color: #FFF
 }
+/*Job title*/
+h3 {
+  font-weight: 600;
+  font-size:1.5em;
+}
+
+/*Organization*/
+h4{
+  font-weight:400;
+  font-size: 1.5em;
+}
+
+/*Date of employment*/
+h5{
+  font-weight:400;
+  font-style: italic;
+  font-size:1em;
+}
+
+ul{
+  font-size: 1em;
+}
