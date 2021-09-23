@@ -1,6 +1,22 @@
+/* Styles for my resume*/
+BODY{
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size: 1em
+  color:#444
+  font-weight: 400;
+}
+
+/*Name*/
 h1{
+  font-size:3em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #33485e
+}
 
- color: #33485e;
- font-size:36x
-
+/*Profession description*/
+strong{
+  color:#33485e;
+  text-transform: uppercase;
+  font-size:1.5em;
 }
