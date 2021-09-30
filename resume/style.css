@@ -9,7 +9,8 @@ BODY{
 #container{
   width:100%;
   max-width: 1200px;
-  margin:0 auto;
+  margin:0px auto;
+  padding-bottom: 50px;
 }
 
 
@@ -18,20 +19,40 @@ BODY{
 /*Name*/
 #name {
   font-size:3em;
+  color:#33485e;
   text-transform: uppercase;
   text-align: center;
   border-bottom: 1px solid #33485e;
   width:60%;
   min-width: 300px;
-  margin:0 auto;
+  margin:0px auto;
 
 }
 
+.menu {
+  margin:0px;
+  padding:0px;
+  text-align:center;
+
+
+}
+.menu li{
+  display:inline;
+}
+
+
 /*Profession description*/
-strong{
+#title{
+  font-weight:600;
   color:#33485e;
   text-transform: uppercase;
   font-size:1.5em;
+  text-align: center;
+  margin-top:20px;
+  margin-bottom:0px;
+  margin-left:0px;
+  margin-right:0px;
+
 }
 /*Experience*/
 .sectionheader{
@@ -41,8 +62,8 @@ strong{
   color: #FFF;
   margin-top: 20px;
   margin-bottom: 10px;
-  margin-right:0;
-  margin-left:0;
+  margin-right:0px;
+  margin-left:0px;
   width:70%;
   min-width:300px;
 
@@ -65,12 +86,41 @@ strong{
   font-style: italic;
   font-size:1em;
   margin-top:2px;
-  margin-bottom:0;
-  margin-left:0;
-  margin-right:0;
-  
+  margin-bottom:0px;
+  margin-left:0px;
+  margin-right:0px;
+
+}
+
+.description{
+  margin-top:10px;
+  margin-bottom:10px;
+  margin-left:0px;
+  margin-right:0px;
+}
+#degrees {
+  margin-top:5px;
+  margin-bottom: 0px;
+  margin-left:0px;
+  margin-right:0px;
+
+}
+
+#do{
+  margin-top:5px;
+  margin-bottom: 0px;
+  margin-left:0px;
+  margin-right:0px;
 }
 
 ul{
   font-size: 1em;
+}
+
+.top{
+  width:60%;
+  min-width:300px;
+  margin:0px auto;
+  padding-bottom: 30px;
+
 }
