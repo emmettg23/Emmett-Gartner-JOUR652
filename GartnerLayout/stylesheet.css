@@ -4,3 +4,158 @@
   margin: 0 auto;
 
 }
+
+body{
+  background-color:#white;
+  padding-bottom: 100px;
+
+}
+
+.masthead{
+  background-image:url('https://upload.wikimedia.org/wikipedia/commons/4/44/%D0%9C%D0%BB%D0%B5%D1%87%D0%BD%D1%8B%D0%B9%D0%BF%D1%83%D1%82%D1%8C.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-origin: border-box;
+  background-color:inherit;
+  padding: 0;
+  display: block;
+  margin: 0 auto;
+  max-height: 100%;
+  max-width: 100%;
+  padding-bottom:4em;
+  padding-top:4em;
+}
+
+.masthead-heading{
+  text-align:center;
+  font-family: Oswald, Helvetica, sans-serif;
+  color:white;
+  font-size: 300%;
+  text-shadow: 1px 1px black;
+
+
+}
+
+.masthead-subheading{
+  text-align:center;
+  font-family: Oswald, Helvetica, sans-serif;
+  color: white;
+  font-size: 200%;
+  text-shadow: 1px 1px black;
+
+}
+
+#headline{
+  background: url(https://media0.giphy.com/media/aGeePr7nv6ra8/giphy.gif?cid=ecf05e47fd4codh1wemmfjfmj6i7pvjaoksc86yq8r7f40jn&rid=giphy.gif&ct=g);
+   background-size: cover;
+   background-position: center;
+
+   -webkit-background-clip: text;
+   color: transparent; // set to transparent, otherwise won't see the background
+
+   width: 300px;
+   height: 100px;
+   font-size: 48px;
+   font-weight: bold;
+   line-height: 100px;
+   font-family: Helvetica, sans-serif;
+   flex-shrink: 0;
+   border-bottom: 1px solid black;
+   text-align: center;
+}
+
+#byline{
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  color: black;
+
+}
+
+p1{
+  display: block;
+  margin: 10px 0;
+  font-family: Georgia, serif;
+  font-size: 13px
+  color: black;
+  text-align: justify;
+}
+
+#figure1{
+  padding:1em;
+
+}
+
+
+#figure3{
+  padding:1em;
+
+}
+
+#figure4{
+  padding:1em;
+
+}
+
+#Spacecraft{
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 2em;
+
+
+}
+
+#p2{
+  text-align:center;
+  font-family: Georgia, serif;
+  font-size: 15px;
+  color:gray;
+  text-align: center;
+}
+
+#caption{
+  font-family: Georgia, serif;
+  font-size: 13px;
+  color: gray;
+}
+
+#caption2{
+  font-family: Georgia, serif;
+  font-size: 13px;
+  color: gray;
+  padding-bottom: 2em;
+
+}
+
+blockquote {
+font: 24px normal helvetica, sans-serif;
+font-style: italic;
+margin-top: 15px;
+margin-bottom: 15px;
+color: darkblue;
+margin-left: 50px;
+padding-left: 15px;
+padding-top: 1em;
+padding-bottom: 1em;
+border-left: 4px solid darkblue;
+}
+
+#links{
+  font-family: Helvetica, sans-serif;
+  font-size: 28px;
+  color: black;
+  padding-top: 2em;
+  border-bottom: 1px solid black
+
+}
+
+p3{
+  display: block;
+  margin: 10px 0;
+  font-family: Georgia, serif;
+  font-size: 13px
+  color: black;
+  text-align: justify;
+}
