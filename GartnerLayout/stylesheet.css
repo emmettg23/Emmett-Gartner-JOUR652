@@ -1,5 +1,4 @@
 #content {
-  width:100%;
   max-width:900px;
   margin: 0 auto;
 
@@ -52,7 +51,7 @@ body{
    background-position: center;
 
    -webkit-background-clip: text;
-   color: transparent; // set to transparent, otherwise won't see the background
+   color: transparent; // background
 
    width: 300px;
    height: 100px;
@@ -70,6 +69,7 @@ body{
   font-size: 14px;
   font-style: italic;
   color: black;
+  padding-bottom: 1em;
 
 }
 
@@ -112,7 +112,6 @@ p1{
   font-family: Georgia, serif;
   font-size: 15px;
   color:gray;
-  text-align: center;
 }
 
 #caption{
@@ -146,7 +145,7 @@ border-left: 4px solid darkblue;
   font-family: Helvetica, sans-serif;
   font-size: 28px;
   color: black;
-  padding-top: 2em;
+  padding-top: 1em;
   border-bottom: 1px solid black
 
 }
@@ -158,4 +157,5 @@ p3{
   font-size: 13px
   color: black;
   text-align: justify;
+
 }
