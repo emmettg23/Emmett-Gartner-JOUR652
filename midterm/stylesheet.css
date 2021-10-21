@@ -54,6 +54,8 @@ p1{
 
 }
 
+/**Pagetop is the byline and date, not the masthead**/
+
 #pagetop{
 
   font-family: "Merriweather Sans", Helvetica, sans-serif;
