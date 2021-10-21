@@ -1,0 +1,159 @@
+.masthead{
+  background-image:url('https://upload.wikimedia.org/wikipedia/commons/8/85/Bank_of_America_Stadium_soccer.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-origin: border-box;
+  background-color:inherit;
+  padding: 0;
+  display: block;
+  margin: 0 auto;
+  max-height: 100%;
+  max-width: 100%;
+  padding-bottom:4em;
+  padding-top:4em;
+
+}
+
+.masthead-heading{
+  text-align:center;
+  font-family: Helvetica, sans-serif;
+  color:white;
+  font-size: 300%;
+  text-shadow: 2px 2px black;
+
+
+
+}
+
+.masthead-subheading{
+  text-align:center;
+  font-family: Helvetica, sans-serif;
+  color: white;
+  font-size: 200%;
+  text-shadow: 2px 2px black;
+  font-style: italic;
+
+}
+
+body{
+  background-color: #fdffd4;
+}
+
+p1{
+  display: block;
+  margin: 20px 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12x;
+  color: black;
+  text-align: justify;
+  line-height: 1.6;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%
+
+}
+
+#pagetop{
+
+  font-family: "Merriweather Sans", Helvetica, sans-serif;
+  text-align: center;
+  border-bottom: 1px solid black;
+
+}
+
+#subheading1{
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding-top:.5em;
+
+}
+
+#subheading2{
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+#content {
+  max-width:900px;
+  margin: 0 auto;
+  padding-bottom: 3em;
+
+}
+
+#headline{
+
+  font-size: 36px;
+  font-style: bold;
+  color: black;
+  padding-top: .5em;
+
+}
+
+#byline{
+  font-size: 16px;
+  font-style: italic;
+  color: black;
+  padding-bottom: 0;
+}
+
+#date{
+  font-size: 12px;
+  font-style: italic;
+  color: black;
+  padding-bottom:0;
+}
+
+#caption{
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  color: gray;
+}
+
+figure{
+  text-align: center;
+}
+
+figcaption{
+  text-align: left;
+}
+
+blockquote {
+font: 24px normal helvetica, sans-serif;
+font-style: italic;
+margin-top: 15px;
+margin-bottom: 15px;
+color: darkblue;
+margin-left: 50px;
+padding-left: 15px;
+padding-top: 1em;
+padding-bottom: 1em;
+border-left: 4px solid darkblue;
+}
+
+#links{
+  display: block;
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  color: black;
+  text-decoration: underline;
+  padding-top: 1em;
+  padding-bottom: 4em;
+  border-bottom: 1px solid black;
+  text-align: center;
+  line-height: 1.6;
+  background-color: #c0e6ff;
+  border: solid 3px black;
+}
+
+p2{
+  display: block;
+  margin: 10px 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 13px
+  color: black;
+  text-align: center;
+}
