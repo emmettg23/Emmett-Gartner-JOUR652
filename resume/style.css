@@ -1,10 +1,12 @@
 /* Styles for my resume*/
 BODY{
-  font-family: 'Open Sans', arial, sans-serif;
+  font-family: Garamond, arial, sans-serif;
   font-size: 1em
   color:#444
   font-weight: 400;
 }
+
+
 
 #container{
   width:100%;
@@ -14,51 +16,59 @@ BODY{
 }
 
 
-
-
-/*Name*/
-#name {
-  font-size:3em;
-  color:#33485e;
-  text-transform: uppercase;
-  text-align: center;
-  border-bottom: 1px solid #33485e;
-  width:60%;
-  min-width: 300px;
-  margin:0px auto;
-
-}
-
-.menu {
-  margin:0px;
-  padding:0px;
-  text-align:center;
-
-
-}
-.menu li{
-  display:inline;
-}
-
-
 /*Profession description*/
 #title{
   font-weight:600;
-  color:#33485e;
+  color:#222325;
   text-transform: uppercase;
   font-size:1.5em;
-  text-align: center;
+  text-align: left;
   margin-top:20px;
   margin-bottom:0px;
   margin-left:0px;
   margin-right:0px;
+  font-family: Garamond;
 
 }
+
+#p{
+    font-family: Garamond;
+    font-size: 1em;
+
+}
+
+#photoheading1{
+  text-align: left;
+  padding-top: 0;
+}
+
+#photoheading2{
+  text-align: right;
+  padding-top: 0;
+}
+
+.caption1{
+  font-family: Garamond;
+  font-size: 1em;
+
+}
+
+.caption2{
+  font-family: Garamond;
+  font-size: 1em;
+  text-align: right;
+
+}
+
+.photosample{
+  padding:1em;
+}
+
 /*Experience*/
 .sectionheader{
   font-size:1.5em;
   text-transform:uppercase;
-  background-color:#33485e;
+  background-color:#222325;
   color: #FFF;
   margin-top: 20px;
   margin-bottom: 10px;
@@ -68,6 +78,13 @@ BODY{
   min-width:300px;
 
 }
+
+.h2{
+  font-family: Garamond;
+
+}
+
+
 /*Job title*/
 .jobtitle{
   font-weight:600;
