@@ -1,57 +1,255 @@
 body{
-  font-family: Helvetica, sans-serif;
+  font-family: Tahoma, sans-serif;
 
 }
 
-#heading{
-  text-align:center;
-  padding:1.5em;
+h1{
+  padding-top: .25em;
+  padding-bottom: .25em;
+  border-bottom:1px solid black;
+  padding-right: .25em;
+  text-align:left;
+  font-weight:600;
+
+
+}
+
+/* Heading container */
+
+.heading-container{
+  max-width: 800px;
+  margin: auto;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  text-align: left;
+  background-color: #f8f7f7;
+  padding:.75em;
 }
 
 .headline{
+
+  padding-top:.5em;
   font-family: Helvetica, sans-serif;
-  font-size: 2.5em;
-  font-weight: 600;
+  font-size: 4em;
+  font-weight: 800;
+  background: url(https://media.giphy.com/media/cWFjJ68ycrGsuUDV4J/giphy.gif);
+   background-size: cover;
+   background-position: center;
+
+   -webkit-background-clip: text;
+   color: transparent; // background
+
 }
 
 .byline{
   font-family: Helvetica, sans-serif;
-  font-size:1.6em;
-  font-weight:200;
+  font-size:1.25em;
+  font-weight:400;
+  padding-top:.25em;
 
 }
 
-.p1{
-  text-align:left;
-  font-size: 1em;
-  margin-left: 35px;
-  margin-right:35px;
-  line-height: 1.5em;
+.dateline{
+  font-family: Helvetica, sans-serif;
+  font-size:1em;
+  font-weight:100;
+  padding-bottom:1em;
+
+}
+
+/* End heading container */
+
+
+/* Body container */
+.container{
+  padding-top:.5em;
+  max-width: 800px;
+
+}
+
+/* Top Hat */
+
+.nav-logo {
+  color: #ffffff;
+  margin: 0 auto;
+  font-weight: 700;
+  text-transform: uppercase;
+
+}
+
+.bg-dark{
+  background:black;
+
+}
+
+.red{
+  color:#f23030;
+}
+
+/* Hero */
+
+.hero-container{
+  position: relative;
+  text-align:center;
+  color:white;
+
+}
+
+.hero-image{
+  width:100%;
+
+}
+
+.overlay{
+  position: absolute;
+  width: 100%;
+  top: 10%;
+  background: black;
+  opacity: .7;
+
+}
+
+.hero-head{
+  padding-top: 10px;
+  margin: 0 auto;
+  font-size: 6em;
+  font-family: 'EB Garamond', serif;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bolder;
+
+}
+
+.hero-sub{
+  font-family: Helvetica; sans-serif;
+  font-size: 1.5em;
+  color:white;
+  padding-bottom: 10px;
+  font-weight: bold;
+
+}
+
+.image-caption1{
+  text-align: center;
+  font-family: Helvetica; sans-serif;
+  font-size:.9em;
+  color: gray;
+  margin-left:auto;
+  padding-top:.25em;
+
+
+}
+
+.image-caption{
+  text-align: left;
+  font-family: Helvetica; sans-serif;
+  font-size:.9em;
+  color: gray;
+  margin-left:auto;
+  padding-top:.25em;
+
+
+
+}
+
+.row{
+  margin-left: 60px;
+  margin-right:60px;
+
+}
+
+
+/*Start media query*/
+@media(max-width: 700px) {
+
+p{
+  padding-left:20px;
+  padding-right: 10px;
+}
+
+.chapter-head{
+  font-size:1.25em;
+
+}
+
+.hero-head{
+  font-size:1.5em;
+
+}
+
+.overlay{
+  font-size:1.5em;
+}
+
+.hero-sub{
+  font-size:.75em;
+}
+
+}
+/*End media query*/
+
+/*Quotey*/
+
+.quote{
+  display:block;
+  background: #fff;
+  padding: 15px 20px 15px 45px;
+  margin: 0 0 20px;
+  position: relative;
+
+  /*Font*/
+  font-family: 'EB Garamond', serif;
+  font-size: 28px;
+  line-height: 1.2;
+  color: red;
   text-align: justify;
 
+  /*Borders - (Optional)*/
+  border-left: 15px solid red;
+  border-right: 2px solid red;
+
+  /*Box Shadow - (Optional)*/
+  -moz-box-shadow: 2px 2px 15px #ccc;
+  -webkit-box-shadow: 2px 2px 15px #ccc;
+  box-shadow: 2px 2px 15px #ccc;
 }
 
-.chapterheadline{
-  padding-bottom:1.5em;
-  padding-top:1.5em;
-  text-align: left;
-  font-size: 1.5em;
-  font-weight:bold;
-  margin-left:35px;
-  margin-right:35px;
-  
+.quote::before{
+  content: "\201C"; /*Unicode for Left Double Quote*/
+
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: #999;
+
+  /*Positioning*/
+  position: absolute;
+  left: 10px;
+  top:5px;
 }
 
-#figure1{
-  padding:1.5em;
+.quote::after{
+  /*Reset to make sure*/
+  content: "";
 }
 
-#caption1{
-  font-size:1em;
-  color:gray;
+.quote: a{
+  text-decoration: none;
+  background: #eee;
+  cursor: pointer;
+  padding: 0 3px;
+  color: #c76c0c;
 }
 
-#columns1{
-  padding-top:2em;
-  padding-bottom:2em;
+
+.quote-attribution{
+  font-size: 1em;
+  color: #999;
+  font-weight:100;
+  text-align:left;
+
 }
+/*End quotey*/
