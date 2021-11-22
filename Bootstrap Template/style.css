@@ -303,6 +303,13 @@ p{
   text-align: left;
 }
 
+.source{
+  font-style:italic;
+  font-size:1em;
+  color:gray;
+  
+}
+
 /**End sidebar styles**/
 
 .ending-byline{
