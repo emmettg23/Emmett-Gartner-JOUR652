@@ -366,6 +366,22 @@ img.responsive { height: auto; }
 
 }
 
+a:link {    /* unvisited link */
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+a:visited {    /* visited link */
+    color: red;
+}
+a:hover {    /* mouse over link */
+    color: blue;
+    border-bottom: none;
+}
+a:active {    /* active link */
+    color: red;
+}
+
 .row{
   padding-top: .5em;
 }
