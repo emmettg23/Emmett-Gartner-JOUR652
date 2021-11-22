@@ -78,7 +78,18 @@ h1{
 }
 
 /* End heading container */
+@media(max-width: 800px) {
+  .headline{
+    font-size:1.5em;
+  }
+  .byline{
+    font-size:1em;
+  }
 
+  .dateline{
+    font-size:.75em;
+  }
+}
 
 /* Body container */
 .container{
@@ -123,10 +134,15 @@ h1{
 
 .overlay{
   position: absolute;
-  width: 100%;
+  width:100%;
   top: 10%;
   background: red;
   opacity: .7;
+  border-left: 10px solid black;
+  border-right: 10px solid black;
+  border-top: 10px solid black;
+  border-bottom: 10px solid black;
+
 
 }
 
@@ -136,17 +152,31 @@ h1{
   top: 50%;
   background: black;
   opacity: .8;
-  padding: .5em;
+  padding-top: .75em;
+  border-left: 3px solid red;
+  border-right: 3px solid red;
+  border-top: 3px solid red;
+  border-bottom: 3px solid red;
+}
+
+.overlay3{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 60%;
+  opacity: .8;
+  padding-top:2em;
 }
 
 .hero-head{
   padding-top: 10px;
-  margin: 0 auto;
+  text-align: center;
   font-size: 6em;
   font-family: 'EB Garamond', serif;
   padding-bottom: 10px;
   color: white;
   font-weight: bolder;
+
 
 }
 
@@ -191,7 +221,7 @@ h1{
 
 
 /*Start media query*/
-@media(max-width: 700px) {
+@media(max-width: 800px) {
 
 p{
   padding-left:20px;
@@ -219,6 +249,17 @@ p{
 }
 /*End media query*/
 
+@media screen and ( max-width: 800px ) {
+img.responsive { width: 150px; }
+}
+@media screen and ( min-width:1025px ) and ( max-width: 1280px ) {
+img.responsive { width: 400px; }
+}
+@media screen and ( min-width: 1081px ) {
+img.responsive { width: 400px; }
+}
+img.responsive { height: auto; }
+
 /*Quotey*/
 
 .quote{
@@ -226,14 +267,13 @@ p{
   background: #fff;
   padding: 15px 20px 15px 45px;
   margin: 0 0 20px;
-  position: relative;
+  position:static;
 
   /*Font*/
   font-family: 'EB Garamond', serif;
   font-size: 28px;
   line-height: 1.2;
   color: red;
-  text-align: justify;
 
   /*Borders - (Optional)*/
   border-left: 15px solid red;
@@ -253,9 +293,10 @@ p{
   font-size: 60px;
   font-weight: bold;
   color: #999;
+  text-align: justify;
 
   /*Positioning*/
-  position: absolute;
+  position: static;
   left: 10px;
   top:5px;
 }
@@ -320,13 +361,20 @@ p{
 
 }
 
+.row{
+  padding-top: .5em;
+}
+
+#photo1{
+  padding-top: 1.5em;
+}
 /**End sidebar styles**/
 
 .ending-byline{
   font-style: italic;
   color: black;
   background: lightgray;
-  padding:1em;
+  padding:3em;
 }
 
 .end-container{
