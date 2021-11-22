@@ -1,6 +1,30 @@
 body{
   font-family: Tahoma, sans-serif;
+}
 
+p{
+  font-family:Tahoma; sans-serif;
+  font-size: 1.1em;
+}
+
+
+.lede-letter{
+
+color: white;
+background-color: black;
+border-radius: 2px;
+box-shadow: 3px 3px 0 red;
+font-size: 350%;
+padding: 6px 3px;
+margin-right: 6px;
+float: left;
+}
+
+.lede{
+  font-family:Tahoma; sans-serif;
+  font-size: 1.1em;
+  padding-top:1em;
+  line-height: 1.5;
 }
 
 h1{
@@ -34,13 +58,7 @@ h1{
   font-family: Helvetica, sans-serif;
   font-size: 4em;
   font-weight: 800;
-  background: url(https://media.giphy.com/media/cWFjJ68ycrGsuUDV4J/giphy.gif);
-   background-size: cover;
-   background-position: center;
-
-   -webkit-background-clip: text;
-   color: transparent; // background
-
+  color: black;
 }
 
 .byline{
@@ -159,6 +177,7 @@ h1{
   margin-right:60px;
 
 }
+
 
 
 /*Start media query*/
