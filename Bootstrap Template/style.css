@@ -125,9 +125,18 @@ h1{
   position: absolute;
   width: 100%;
   top: 10%;
-  background: black;
+  background: red;
   opacity: .7;
 
+}
+
+.overlay2{
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  background: black;
+  opacity: .8;
+  padding: .5em;
 }
 
 .hero-head{
