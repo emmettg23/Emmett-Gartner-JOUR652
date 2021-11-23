@@ -7,6 +7,7 @@ p{
   font-size: 1.1em;
 }
 
+/* Lede styles */
 
 .lede-letter{
 
@@ -26,6 +27,9 @@ float: left;
   padding-top:1em;
   line-height: 1.5;
 }
+
+/* Chapter heading style */
+
 
 h1{
   padding-top: .25em;
@@ -193,6 +197,8 @@ h1{
 
 }
 
+/* Image caption styles */
+
 .image-caption1{
   text-align: center;
   font-family: Helvetica; sans-serif;
@@ -215,6 +221,8 @@ h1{
 
 
 }
+
+/* Dual image display */
 
 .row{
   margin-left: 60px;
@@ -363,6 +371,9 @@ img.responsive { height: auto; }
   color:gray;
 
 }
+
+/* Link styling */
+
 
 a:link {    /* unvisited link */
     color: black;
