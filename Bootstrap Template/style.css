@@ -338,8 +338,6 @@ img.responsive { height: auto; }
   box-shadow: 7px 7px 0 black;
   padding: .25em;
   text-align: center;
-  background-color: lightyellow;
-
 }
 
 .sidebar-heading{
@@ -372,7 +370,7 @@ a:link {    /* unvisited link */
     border-bottom: 1px solid;
 }
 a:visited {    /* visited link */
-    color: red;
+    color: pink;
 }
 a:hover {    /* mouse over link */
     color: blue;
@@ -396,10 +394,15 @@ a:active {    /* active link */
   color: black;
   background: lightgray;
   padding:3em;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+
 }
 
 .end-container{
-  padding-bottom:3em;
+  padding-bottom:2em;
 }
 
 .final-container{
