@@ -1,0 +1,164 @@
+/* Top Hat */
+
+.nav-logo {
+  color: #ffffff;
+  margin: 0 auto;
+  font-weight: 700;
+  text-transform: uppercase;
+
+}
+
+.bg-dark{
+  background-color:#144D0E;
+
+}
+
+
+.hero-image1{
+  width:100%;
+  border-bottom: 2px solid black;
+
+}
+
+.hero-image2{
+  width:100%;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+
+
+}
+
+.hero-image{
+  width:100%;
+
+}
+
+
+
+/* Body container */
+.container{
+  padding-top:.5em;
+  max-width: 800px;
+}
+
+/* Heading container */
+.heading-container{
+  padding-top:1em;
+  max-width: 900px;
+  margin: auto;
+  padding: 2em;
+  text-align: center;
+
+}
+
+body{
+  background-color: #3e5855;
+
+}
+
+.headline{
+  color: white;
+  font-family:'Puritan', sans-serif;
+  font-weight:600;
+  font-size: 3.5em;
+}
+
+
+h2{
+  font-family:'Puritan', sans-serif;
+  color:white;
+  font-size: 1.5em;
+
+
+}
+
+h3{
+  font-family:'Puritan', sans-serif;
+  color:white;
+  font-size: 1em;
+
+}
+
+p{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.1em;
+  color:white;
+  text-shadow: 1px black;
+}
+
+/* Chapter heading style */
+
+
+.chapter-heading{
+  padding-top: .25em;
+  padding-bottom: .25em;
+  border-bottom:1px solid white;
+  padding-right: .25em;
+  text-align:left;
+  font-weight:600;
+  color: #d1f6ff;
+
+}
+
+.image-caption1{
+  text-align: center;
+  font-family: Helvetica; sans-serif;
+  font-size:.9em;
+  color: lightgray;
+  margin-left:auto;
+  padding-top:.25em;
+
+
+}
+
+.image-caption{
+  text-align: left;
+  font-family: Helvetica; sans-serif;
+  font-size:.9em;
+  color: lightgray;
+  margin-left:auto;
+  padding-top:.25em;
+
+
+}
+
+/* Lede styles */
+
+.lede-letter{
+
+color: white;
+background-color: black;
+border-radius: 2px;
+box-shadow: 4px 4px 0 beige;
+font-size: 350%;
+padding: 6px 3px;
+margin-right: 6px;
+float: left;
+}
+
+.lede{
+  font-family:'Noto Sans', sans-serif;
+  font-size: 1.1em;
+  line-height: 1.5;
+}
+
+
+iframe{
+  background-color: white;
+  padding:1em;
+}
+
+/**Media Query for Headline**/
+
+@media(max-width: 800px) {
+  .headline{
+    font-size:2em;
+  }
+  .byline{
+    font-size:1.5em;
+  }
+
+  .dateline{
+    font-size:1em;
+  }
+}
