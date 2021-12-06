@@ -61,6 +61,7 @@ body{
   font-family:'Puritan', sans-serif;
   font-weight:600;
   font-size: 3.5em;
+  text-decoration: underline;
 }
 
 
@@ -162,3 +163,69 @@ iframe{
     font-size:1em;
   }
 }
+
+
+/*Quotey*/
+
+.quote{
+  display:block;
+  background: lightgray;
+  padding: 15px 20px 15px 45px;
+  margin: 0 0 20px;
+  position:static;
+
+  /*Font*/
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 28px;
+  line-height: 1.2;
+  color: #202020;
+
+  /*Borders - (Optional)*/
+  border-left: 15px solid #001a20;
+  border-right: 2px solid #001a20;
+
+  /*Box Shadow - (Optional)*/
+  -moz-box-shadow: 2px 2px 15px #fff;
+  -webkit-box-shadow: 2px 2px 15px #fff;
+  box-shadow: 2px 2px 15px #fff;
+}
+
+.quote::before{
+  content: "\201C"; /*Unicode for Left Double Quote*/
+
+  /*Font*/
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: #3e5855;
+  text-align: justify;
+
+  /*Positioning*/
+  position: static;
+  left: 10px;
+  top:5px;
+}
+
+.quote::after{
+  /*Reset to make sure*/
+  content: "";
+}
+
+.quote: a{
+  text-decoration: none;
+  background: #eee;
+  cursor: pointer;
+  padding: 0 3px;
+  color: darkgray;
+}
+
+
+.quote-attribution{
+  font-size: .75em;
+  color: #3e5855;
+  font-weight:100;
+  text-align:left;
+  padding-top:.5em;
+
+}
+/*End quotey*/
