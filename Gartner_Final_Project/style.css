@@ -8,11 +8,6 @@
 
 }
 
-.bg-dark{
-  background-color:#144D0E;
-
-}
-
 
 .hero-image1{
   width:100%;
@@ -28,11 +23,17 @@
 
 }
 
+.hero-image3{
+  width:100%;
+  border-bottom: 2px solid black;
+  padding-top: 4em;
+
+}
+
 .hero-image{
   width:100%;
 
 }
-
 
 
 /* Body container */
@@ -103,7 +104,7 @@ p{
 
 .image-caption1{
   text-align: center;
-  font-family: Helvetica; sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   font-size:.9em;
   color: lightgray;
   margin-left:auto;
@@ -114,7 +115,7 @@ p{
 
 .image-caption{
   text-align: left;
-  font-family: Helvetica; sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   font-size:.9em;
   color: lightgray;
   margin-left:auto;
@@ -127,14 +128,14 @@ p{
 
 .lede-letter{
 
-color: white;
-background-color: black;
-border-radius: 2px;
-box-shadow: 4px 4px 0 beige;
-font-size: 350%;
-padding: 6px 3px;
-margin-right: 6px;
-float: left;
+  color: white;
+  background-color: black;
+  border-radius: 2px;
+  box-shadow: 4px 4px 0 #d1f6ff;
+  font-size: 350%;
+  padding: 6px 3px;
+  margin-right: 6px;
+  float: left;
 }
 
 .lede{
@@ -147,6 +148,14 @@ float: left;
 iframe{
   background-color: white;
   padding:1em;
+}
+
+.chart-container1{
+  padding-top: .5em;
+}
+
+.chart-container2{
+  padding-bottom: .5em;
 }
 
 /**Media Query for Headline**/
@@ -169,26 +178,31 @@ iframe{
 
 .quote{
   display:block;
-  background: lightgray;
+  background: #243431;
   padding: 15px 20px 15px 45px;
   margin: 0 0 20px;
   position:static;
-
-  /*Font*/
-  font-family: 'Noto Sans', sans-serif;
-  font-size: 28px;
-  line-height: 1.2;
-  color: #202020;
-
   /*Borders - (Optional)*/
-  border-left: 15px solid #001a20;
+  border-left: 2px solid #001a20;
   border-right: 2px solid #001a20;
+  border-top: 2px solid #001a20;
+  border-bottom: 2px solid #001a20;
+
 
   /*Box Shadow - (Optional)*/
   -moz-box-shadow: 2px 2px 15px #fff;
   -webkit-box-shadow: 2px 2px 15px #fff;
   box-shadow: 2px 2px 15px #fff;
+
+  /*Font*/
+  font-family: 'EB Garamond', sans-serif;
+  font-size: 28px;
+  line-height: 1;
+  color: white;
+
 }
+
+
 
 .quote::before{
   content: "\201C"; /*Unicode for Left Double Quote*/
@@ -197,7 +211,7 @@ iframe{
   font-family: 'Noto Sans', sans-serif;
   font-size: 60px;
   font-weight: bold;
-  color: #3e5855;
+  color: lightgray;
   text-align: justify;
 
   /*Positioning*/
@@ -213,19 +227,20 @@ iframe{
 
 .quote: a{
   text-decoration: none;
-  background: #eee;
+  background:;
   cursor: pointer;
   padding: 0 3px;
-  color: darkgray;
+  color: lightgray;
 }
 
 
 .quote-attribution{
   font-size: .75em;
-  color: #3e5855;
+  color: lightgray;
   font-weight:100;
   text-align:left;
   padding-top:.5em;
+  font-family: 'Noto Sans', sans-serif;
 
 }
 /*End quotey*/
